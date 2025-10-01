@@ -1,0 +1,75 @@
+@media  screen and (max-width:690px) {
+    body{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-2{
+        height: 60px;
+        background-color: darkblue;
+    }
+    .container-2 .logo {
+        font-size: 20px;
+        margin: 10px auto;
+    }
+    .container-2 .quotes{
+        display: none;
+    }
+.form-form{
+    margin-bottom: 30px;
+}
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+    align-items: center;
+  top: 50px;
+  left: 0;
+  bottom: 0px;
+  background-color: rgb(110, 110, 110);
+
+}
+.navbar-1 ul img{
+    width: 30px;
+    height: 20px;
+}
+.navbar-1 ul li a .img {
+  width: 10px;
+  height: 10px;
+}
+.navbar-1 ul li span {
+  margin-left: 10px;
+}
+.navbar-1 ul li a {
+  font-size: 10px;
+  text-align: none;
+  display: flex;
+  color: lightskyblue;
+  text-decoration: none;
+  margin: 10px;
+}
+.copyright {
+  text-align: center;
+  font-size: 8px;
+  color: lightskyblue;
+}.navbar-2 ul {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+}
+.navbar-2 ul {
+  display: flex;
+  justify-content: center;
+}
+.navbar-2 ul li a img { 
+    margin-left: 10px;
+}
+
+.orange-box img{
+    top:90%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+}

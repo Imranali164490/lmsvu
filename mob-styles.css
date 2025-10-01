@@ -1,0 +1,79 @@
+@media screen and (max-width:350px)
+{
+        body{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-2{
+        height: 60px;
+        background-color: darkblue;
+    }
+    .container-2 .logo {
+        font-size: 16px;
+        margin: 10px auto;
+    }
+    .container-1 .login-form .logo-img img {
+  width: 150px;
+  height: 100px;
+  margin: 30px;
+}
+    .form {
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  margin: 10px 0px 10px 0px;
+  border-radius: 0.25rem;
+  width: 240px;
+  height: 40px;
+  padding: 10px 16px;
+  border-color: #acadb1;
+  background-color: rgb(232, 240, 254);
+}
+.notice,
+.handouts {
+  display: flex;
+  font-size: 13px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #5867dd;
+}
+footer{
+    display: flex;
+    /* flex-direction: ; */
+    justify-content: center;
+    /* display: grid; */
+    /* gri/d-template-rows: 100px 100px; */
+}
+.navbar-1 ul img{
+    margin-left: 10px;
+      display: flex;
+  width: 60px;
+  height: 50px;
+}
+.navbar-2 ul img{
+          display: flex;
+  width: 90px;
+  height: 50px;
+}
+
+.navbar-1 ul li{
+    margin: 10px auto;
+    display: none;
+    flex-direction: column;
+
+}
+footer .copyright{
+    display: none;
+}
+
+.orange-box img{
+    top:90%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+}
