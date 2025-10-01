@@ -1,0 +1,37 @@
+@media screen and (max-width: 370px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+  }
+  .navbar-1 ul img {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    width: 60px;
+    height: 50px;
+  }
+  .navbar-2 ul img {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+  }
+
+  .navbar-1 ul li {
+    margin: 10px auto;
+    display: none;
+    flex-direction: column;
+  }
+  footer .copyright {
+    display: none;
+  }
+}
